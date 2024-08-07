@@ -1,0 +1,12 @@
+version: '3.3'
+services:
+    netalertx:
+        container_name: netalertx
+        network_mode: host
+        volumes:
+            - ./config:/app/config
+            - ./db:/app/db
+        environment:
+            - TZ=Europe/Madrid
+            - PORT=20211
+        image: jokobsk/netalertx:latest
