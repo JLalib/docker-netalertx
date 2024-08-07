@@ -1,5 +1,6 @@
-# docker-netalertx
-docker-compose NetAlertX | Detección "intrusos" en red WiFi y LAN
+# NetalertX
+
+NetAlertX | Detección "intrusos" en red WiFi y LAN
 
 ### Acceso vía web
 http://IP_docker:20211/
